@@ -1,0 +1,6 @@
+services:
+  pythonapp:
+    build: ./
+    command: python3 ./main.py
+    ports:
+      - "8080:8080"
